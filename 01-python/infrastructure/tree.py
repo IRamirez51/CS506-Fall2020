@@ -1,11 +1,14 @@
-def draw_tree():
-    print("    / \     ")
-    print("   /   \      ")
-    print("  /     \    ")
-    print("  ---  ---   ")
-    print("   /   \ ")
-    print("  /     \      ")
-    print(" /       \      ")
-    print(" ---------      ")
-    print("    |_|   ")
-    
+def draw_tree(numberoftrees):
+
+    for x in range(numberoftrees):
+        print("     _      ")
+        print("    / \     ")
+        print("   /   \      ")
+        print("  /     \    ")
+        print("  ---  ---   ")
+        print("   /   \ ")
+        print("  /     \      ")
+        print(" /       \      ")
+        print(" ---------      ")
+        print("    |_|   ")
+        
